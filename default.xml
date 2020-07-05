@@ -710,6 +710,10 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="vendor/gls" remote="my_fork" name="gl-android-training-2020" revision="ledcontrol_project" groups="device,hikey,pdk,vendor,gls" />
+  <project path="vendor/gls/packages" remote="my_fork" name="gl-android-training-2020" revision="ledcontrol_app" groups="device,hikey,pdk,vendor,gls" />
+  <project path="vendor/gls/hardware" remote="my_fork" name="gl-android-training-2020" revision="ledcontrol_hw" groups="device,hikey,pdk,vendor,gls" />
+  <project path="vendor/gls/sepolicy" remote="my_fork" name="gl-android-training-2020" revision="ledcontrol_sepolicy" groups="device,hikey,pdk,vendor,gls" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
